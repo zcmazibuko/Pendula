@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Pendula",
+      "hasCanvas": false,
+      "bodyTextLen": 34,
+      "bodyTextHash": "2924c97cbddc7209c4c2db8a8039e5481a0f35773b9d410495c4c9b7ff68281a",
+      "bodyTextPrefix": "Pendula Learn. Grow. Earn. Thrive.",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Pendula",
+      "hasCanvas": false,
+      "bodyTextLen": 34,
+      "bodyTextHash": "2924c97cbddc7209c4c2db8a8039e5481a0f35773b9d410495c4c9b7ff68281a",
+      "bodyTextPrefix": "Pendula Learn. Grow. Earn. Thrive.",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text collapsed (614 -> 34 chars)",
+    "mobile: body text collapsed (614 -> 34 chars)"
+  ]
+}

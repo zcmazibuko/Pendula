@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Pendula",
+      "hasCanvas": false,
+      "bodyTextLen": 614,
+      "bodyTextHash": "d22a83c1f7a80afb8c843d1c5278097fe5d96156df9430e69ecb6d559073441e",
+      "bodyTextPrefix": "EDUCATIONAL REWARDS BANK Pendula Learn. Grow. Earn. Thrive. Atte",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Pendula",
+      "hasCanvas": false,
+      "bodyTextLen": 614,
+      "bodyTextHash": "d22a83c1f7a80afb8c843d1c5278097fe5d96156df9430e69ecb6d559073441e",
+      "bodyTextPrefix": "EDUCATIONAL REWARDS BANK Pendula Learn. Grow. Earn. Thrive. Atte",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

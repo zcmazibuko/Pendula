@@ -1,0 +1,2280 @@
+# MASTER DEVELOPMENT PROMPT FOR OPENAI CODEX
+
+# PENDULA MANAGEMENT APP
+## A Live, AI-Powered Educational Management, Learner Development and Rewards Banking Platform
+
+**PROJECT TYPE:** Full-stack web and mobile-responsive application
+
+**PROJECT NAME:** Pendula Management App
+
+**PRIMARY MARKET:** South Africa
+
+**INITIAL CAPACITY:** 500 learners, 30 teacher devices, and up to 3 administrators
+
+**LEARNER GRADES:** Grade 1–12
+
+**HOSTING PREFERENCE:** Google's free-tier infrastructure
+
+**AI PREFERENCE:** Free-tier, open-source and cost-controlled AI technologies
+
+**DELIVERY REQUIREMENT:** Fully developed, tested, secured, deployed, published and operational application
+
+**DEVELOPMENT STATUS REQUIRED:** LIVE PRODUCTION SYSTEM — NOT A PROTOTYPE
+
+---
+
+# 1. YOUR MISSION
+
+You are not merely a software coding assistant.
+
+For this project, operate as a world-class multidisciplinary technology company consisting of:
+
+- Senior full-stack software engineers
+- Cloud architects and DevOps engineers
+- Cybersecurity specialists
+- Database architects
+- UI/UX designers
+- Graphic designers
+- Educational psychologists
+- Child development specialists
+- Youth development practitioners
+- Industrial psychologists
+- Educational assessment specialists
+- Data scientists
+- Statisticians
+- Financial systems engineers
+- Banking software developers
+- AI and machine learning engineers
+- Quality assurance engineers
+- Accessibility specialists
+- South African POPIA compliance specialists
+- Product managers
+- Technical documentation specialists
+
+Your mission is to build **Pendula**, a sophisticated, beautiful, secure and intelligent educational management platform that combines:
+
+1. Learner management
+2. Attendance tracking
+3. Educational assessment and progress monitoring
+4. Gamified learning incentives
+5. A virtual learner banking system
+6. AI-powered educational intelligence
+7. Teacher productivity tools
+8. Administrator governance and oversight
+9. Parent and guardian communication
+10. Real-time reporting and analytics
+11. Proactive learner development interventions
+12. Secure data management and audit trails
+
+The final application must feel like a premium commercial product developed by a highly innovative technology company.
+
+It must be intuitive enough for a teacher with limited computer skills while providing sophisticated analytical capabilities to management.
+
+**Do not stop after creating the frontend, backend, database, or deployment configuration. Complete the entire application and take it live.**
+
+---
+
+# 2. NON-NEGOTIABLE DELIVERY REQUIREMENTS
+
+You must:
+
+- Build the complete application.
+- Create a functional frontend and backend.
+- Establish the production database.
+- Implement secure authentication.
+- Implement role-based permissions.
+- Create all learner management features.
+- Implement the complete Pendula banking engine.
+- Implement attendance and assessment management.
+- Implement Reading Eggs progress tracking.
+- Implement real-time dashboards.
+- Integrate practical AI capabilities.
+- Implement automatic notifications.
+- Implement comprehensive reporting.
+- Implement backup and recovery mechanisms.
+- Test the complete system.
+- Fix all critical defects.
+- Configure production hosting.
+- Deploy the application.
+- Publish it at a working HTTPS address.
+- Verify that production functionality works.
+- Provide the administrator with working login access through a secure setup process.
+- Deliver complete documentation and operational instructions.
+
+Do not declare the project complete merely because the code builds successfully.
+
+**Completion means the system is genuinely accessible online and its essential workflows function in production.**
+
+Do not substitute sample screens, simulated banking transactions, placeholder charts or mock AI responses for working functionality.
+
+If a deployment requires my Google account authentication, credentials, project authorization, billing confirmation or other external approval, request the specific action and resume development immediately after authorization.
+
+Never claim deployment or publication succeeded without verifying the live application.
+
+---
+
+# 3. PRODUCT IDENTITY AND VISUAL DESIGN
+
+## 3.1 Brand
+
+Name: **Pendula**
+
+Suggested tagline:
+
+**Learn. Grow. Earn. Thrive.**
+
+The application should communicate:
+
+- Hope
+- Academic achievement
+- Growth
+- Responsibility
+- Financial literacy
+- Empowerment
+- Belonging
+- Excellence
+
+The visual identity must be youthful, sophisticated and professional.
+
+Avoid generic administrative dashboards that look like spreadsheets.
+
+## 3.2 Visual Direction
+
+Design the interface with the quality expected from leading contemporary financial technology and educational software companies.
+
+Suggested palette:
+
+- Deep navy: trust and professionalism
+- Electric blue: innovation and technology
+- Emerald green: growth and achievement
+- Warm gold: rewards and excellence
+- Soft white: clarity
+- Subtle lavender: creativity
+
+Implement both light and dark themes.
+
+Use:
+
+- Elegant typography
+- Modern rounded cards
+- Responsive navigation
+- Meaningful micro-interactions
+- Beautiful data visualisations
+- Animated progress indicators
+- Professional iconography
+- Accessible colour contrasts
+- Consistent spacing
+- Mobile-friendly controls
+- Skeleton loading states
+- Helpful empty states
+- Contextual tooltips
+
+Design every major screen for desktop, tablet and mobile.
+
+## 3.3 Different Interfaces for Different Users
+
+Create distinct experiences for:
+
+**Administrators:** A powerful management and intelligence dashboard.
+
+**Teachers:** A fast, simplified operational interface.
+
+**Learners:** An age-appropriate educational rewards experience.
+
+**Parents or guardians:** A restricted view of their own child's progress, where enabled.
+
+Grade 1 learners should not encounter the same complexity as Grade 12 learners.
+
+Use age-appropriate terminology, visual presentation and accessibility features.
+
+---
+
+# 4. TECHNOLOGY ARCHITECTURE
+
+Use reliable, actively maintained, modern technologies.
+
+Preferred stack:
+
+| Layer | Preferred Technology |
+|---|---|
+| Frontend | React, TypeScript, Next.js or Vite |
+| Styling | Tailwind CSS |
+| UI components | Accessible component library |
+| Hosting | Firebase Hosting or Google-supported equivalent |
+| Authentication | Firebase Authentication |
+| Database | Cloud Firestore |
+| Backend | Firebase Cloud Functions or Cloud Run |
+| Storage | Firebase Storage, subject to free-tier eligibility |
+| Analytics | Custom Firestore-based analytics |
+| Charts | Recharts or Apache ECharts |
+| Notifications | Firebase Cloud Messaging |
+| AI | Gemini free-tier where eligible, with local/open-source fallback |
+| Testing | Vitest, Playwright and Firebase Emulator Suite |
+| CI/CD | GitHub Actions |
+| Monitoring | Google Cloud/Firebase monitoring within available quotas |
+
+These are preferences, not permission to choose an architecture that cannot be deployed.
+
+Verify current Google pricing, quotas, billing requirements and service availability before finalising the architecture.
+
+Some Google services require billing activation even when usage remains within a free allowance.
+
+Do not falsely promise that every requested feature can operate indefinitely at zero cost.
+
+Prioritise free-tier-compatible implementations, minimise reads and writes, and provide an accurate cost and quota assessment.
+
+The platform must be a **Progressive Web App (PWA)** that can be installed on Android, iPhone, tablets and computers.
+
+It must not require publication in the Apple App Store or Google Play Store to be usable.
+
+---
+
+# 5. SYSTEM CAPACITY AND PERFORMANCE
+
+The initial production system must support:
+
+- At least 500 learner records
+- At least 30 teacher devices
+- Up to 3 administrator accounts
+- Grade 1–12
+- Multiple classrooms
+- Multiple schools
+- Multiple programme locations
+- Multiple academic years
+- Historical learner records
+- Concurrent teacher activity
+
+Architect the system so that it can expand beyond 500 learners without a complete rebuild.
+
+Use pagination, efficient queries, indexed searches, caching, batched operations and sensible database denormalisation.
+
+Test realistic concurrent use.
+
+Do not confuse 30 registered devices with 30 simultaneous users; support both requirements and measure performance under concurrent activity.
+
+---
+
+# 6. USER ROLES AND PERMISSIONS
+
+Implement strict server-enforced role-based access control.
+
+## 6.1 Super Administrator
+
+There may be a maximum of three active administrators.
+
+Administrators have full system-management privileges.
+
+Only administrators may:
+
+- Create administrator accounts
+- Promote users to administrator
+- Remove administrator privileges
+- Create, deactivate or remove teacher accounts
+- Deactivate or remove learner records
+- Approve point deductions
+- Reverse banking transactions
+- Change interest policies
+- Change points reward policies
+- Change security settings
+- Manage system integrations
+- Export organisation-wide sensitive information
+- Restore archived records
+- Configure academic calendars
+- Manage programme locations
+- Access complete audit logs
+- Manage backups and recovery
+- Configure AI permissions
+- Manage parent access
+- Change organisation-wide settings
+
+The first administrator must be securely bootstrapped.
+
+Never expose an unrestricted administrator registration endpoint.
+
+Prevent the fourth active administrator account from being created.
+
+For high-risk operations, require recent reauthentication.
+
+Support optional two-person approval for particularly sensitive actions.
+
+## 6.2 Teachers
+
+Teachers may:
+
+- Register new learners
+- Upload learner records in bulk
+- Edit permitted learner information
+- Record attendance
+- Create and mark assessments
+- Record Reading Eggs achievements
+- Award points through approved rules
+- View learner balances
+- View banking statements for authorised learners
+- Generate reports for assigned classes
+- Send approved communications
+- Create intervention notes
+- Monitor learner progress
+- Request point deductions
+- Request correction of erroneous transactions
+- View class performance statistics
+
+Teachers must not:
+
+- Delete or deactivate learner accounts
+- Delete or deactivate teacher accounts
+- Create administrators
+- Approve their own point deduction requests
+- Directly alter a stored bank balance
+- Delete transaction history
+- Change system-wide reward rules
+- Modify security permissions
+- Access unauthorised learner records
+
+Teachers may edit points only through approved earning transactions or an administrator-approved adjustment workflow.
+
+## 6.3 Learners
+
+Create an optional, secure learner portal.
+
+Learners may:
+
+- View their Pendula balance
+- View their earning history
+- View learning achievements
+- View attendance streaks
+- View assessment progress
+- View badges
+- View savings goals
+- View age-appropriate financial literacy content
+
+Learners must never have access to other learners' personal information.
+
+## 6.4 Parents and Guardians
+
+Implement optional parent access with verified learner linkage.
+
+Parents may view only their linked children's authorised information.
+
+Do not give parents access to staff-only notes or confidential safeguarding records.
+
+---
+
+# 7. LEARNER REGISTRATION AND PROFILE MANAGEMENT
+
+Build a comprehensive learner information system.
+
+Each learner must have a unique Pendula learner identification number.
+
+Suggested format:
+
+PEN-2026-00001
+
+The number must be generated automatically and remain unique.
+
+Never rely on names alone to identify a learner.
+
+## 7.1 Personal Information
+
+Capture:
+
+- Learner ID
+- First name
+- Middle name, if applicable
+- Surname
+- Preferred name
+- Date of birth
+- Automatically calculated age
+- Gender, where legitimately required
+- Grade
+- School
+- Class
+- Programme location
+- Registration date
+- Registration status
+- Home language
+- Preferred communication language
+- Nationality, where legally justified
+- Residential area
+- Residential address
+- Parent or guardian details
+- Emergency contact details
+- Relevant learning support requirements
+- Learner photograph, where consented
+- Reading Eggs learner identifier
+- Academic history
+- Attendance history
+- Assessment history
+- Pendula banking account
+
+Avoid collecting sensitive information merely because a field can be added.
+
+Clearly distinguish required, optional and restricted fields.
+
+## 7.2 Birthdays
+
+Automatically identify:
+
+- Today's birthdays
+- Upcoming birthdays
+- Learners turning important ages
+- Birthdays within the next seven and thirty days
+
+Show birthday reminders on authorised staff dashboards.
+
+Allow teachers to send appropriate birthday messages through approved channels.
+
+## 7.3 School and Class Management
+
+Allow administrators to configure schools and classes.
+
+Support Grades 1–12.
+
+Each learner should have an academic-year enrolment record, allowing historical grade progression.
+
+A learner changing schools must retain their Pendula account and transaction history.
+
+---
+
+# 8. PREVENT DUPLICATE LEARNER RECORDS
+
+Duplicate prevention is a critical requirement.
+
+Implement:
+
+1. Unique learner identification numbers.
+2. Normalised name comparisons.
+3. Date-of-birth comparisons.
+4. School and grade matching.
+5. Guardian contact matching.
+6. Optional photograph-assisted manual review.
+7. Database-level uniqueness controls.
+8. Duplicate checks during bulk uploads.
+9. Duplicate warnings during registration.
+10. Administrator-controlled record merging.
+
+When a teacher attempts to register a possible duplicate, display:
+
+**Possible existing learner found. Please review before continuing.**
+
+Show permitted identifying details to help confirm the match.
+
+Do not automatically merge learners based on names or demographic similarities.
+
+Use a confidence-based duplicate detection system that distinguishes confirmed identifier matches from possible matches.
+
+Administrators must be able to merge confirmed duplicate records while preserving:
+
+- Attendance history
+- Assessment history
+- Points history
+- Reading Eggs progress
+- Audit logs
+- Original record references
+
+Prevent double registration from accidental repeated clicks, retries or simultaneous uploads through idempotent operations.
+
+---
+
+# 9. BULK LEARNER UPLOAD
+
+Allow administrators and teachers to upload up to 500 learner records through CSV or Excel files.
+
+Build a guided import interface.
+
+Features:
+
+- Downloadable import template
+- Drag-and-drop upload
+- Column mapping
+- Data validation
+- Duplicate detection
+- Missing field warnings
+- Date-format correction
+- School and grade matching
+- Preview before importing
+- Import progress indicator
+- Import error report
+- Partial import recovery
+- Audit trail
+- Idempotent retry protection
+
+Never silently overwrite existing records.
+
+Provide clear explanations of import errors.
+
+Support UTF-8 text and common South African date formats.
+
+---
+
+# 10. THE PENDULA BANKING SYSTEM
+
+This is one of the most important components of the application.
+
+Create a fully functional **virtual educational rewards banking system**.
+
+It must behave like a professional banking ledger, but it must not be represented as a real financial institution.
+
+Pendula points are educational rewards, not South African rand, deposits, electronic money or legal tender.
+
+Unless a separate, legally reviewed redemption programme is implemented, points must have no cash value.
+
+## 10.1 Learner Accounts
+
+Every registered learner automatically receives a Pendula account.
+
+Each account must contain:
+
+- Unique account number
+- Learner name
+- Current points balance
+- Total points earned
+- Total approved deductions
+- Interest earned
+- Transaction history
+- Savings goals
+- Account opening date
+- Account status
+- Last transaction date
+
+## 10.2 Double-Entry Ledger
+
+Implement an immutable, auditable ledger with appropriate balancing accounts.
+
+Do not use a simple editable balance field as the source of truth.
+
+Every transaction must have:
+
+- Unique transaction ID
+- Transaction type
+- Date and time
+- Learner account
+- Points amount
+- Source or destination ledger account
+- Reason
+- Rule version
+- Initiating user
+- Approving user, where required
+- Linked attendance, assessment or achievement record
+- Idempotency key
+- Audit metadata
+
+Use atomic database transactions.
+
+Ensure that concurrent actions cannot cause lost updates or double credits.
+
+Any cached balance must reconcile with the authoritative ledger.
+
+## 10.3 Points Earning Categories
+
+Implement configurable earning categories:
+
+- Daily attendance
+- Assessment participation
+- Assessment improvement
+- Reading Eggs stage advancement
+- Reading Eggs milestones
+- Reading achievements
+- Homework completion
+- Learning goals
+- Special educational achievements
+- Positive learning habits
+- Approved programme participation
+- Savings interest
+- Administrator-approved bonus awards
+
+All discretionary categories must be configurable and disabled by default until approved.
+
+Do not allow arbitrary teacher-created reward categories to bypass governance.
+
+## 10.4 Example Reward Policy
+
+Use these as initial proposed defaults, subject to administrator approval.
+
+| Activity | Suggested Points |
+|---|---:|
+| Daily attendance | 10 |
+| Completed assessment | 20 |
+| Assessment improvement | 5 per qualifying percentage-point improvement, capped at 50 |
+| New Reading Eggs stage | 30 |
+| Approved learning milestone | 15 |
+| Perfect eligible attendance week | 20 |
+
+Create an intuitive policy configuration screen.
+
+Allow administrators to change points values without modifying code.
+
+Store policy versions and effective dates.
+
+Never retroactively recalculate historical transactions unless an explicit, audited recalculation is approved.
+
+---
+
+# 11. ATTENDANCE POINTS ENGINE
+
+Learners earn attendance points for eligible attendance from Monday to Friday during the school term.
+
+## 11.1 Academic Calendar
+
+Build a South African academic calendar management system.
+
+Administrators must be able to configure:
+
+- Academic year
+- School terms
+- Public holidays
+- Programme opening days
+- Programme closure dates
+- Special operating days
+- Programme-specific exceptions
+
+Do not assume that all schools follow identical calendars.
+
+Support the relevant provincial or school calendar when configured.
+
+## 11.2 Attendance Statuses
+
+Support:
+
+- Present
+- Absent
+- Excused absence
+- Late
+- Programme closed
+- Not scheduled
+
+Only eligible attendance should automatically generate attendance points.
+
+Late attendance rewards must follow an administrator-defined policy.
+
+## 11.3 One Attendance Reward Per Day
+
+A learner must not receive duplicate daily attendance points.
+
+If two teachers record attendance simultaneously, only one eligible attendance reward may be created for that learner, programme and date.
+
+Implement server-side uniqueness and idempotency.
+
+If attendance is corrected from present to absent after points were awarded, create a pending deduction or reversal request for administrator approval.
+
+Do not silently remove points.
+
+## 11.4 Attendance Capture
+
+Provide:
+
+- Class attendance registers
+- Individual learner check-in
+- Bulk marking
+- QR-code scanning
+- Search by learner ID
+- Offline attendance capture with later synchronisation
+- Attendance correction requests
+- Real-time attendance dashboards
+
+Optional biometric attendance must not be activated by default.
+
+If facial recognition is considered, require a separate privacy, safeguarding and legal assessment, explicit authorisation, suitable consent or other lawful basis, and a non-biometric alternative.
+
+---
+
+# 12. EDUCATIONAL ASSESSMENT SYSTEM
+
+Create a comprehensive assessment management module.
+
+Teachers must be able to create assessments for Grades 1–12.
+
+## 12.1 Assessment Information
+
+Capture:
+
+- Assessment ID
+- Subject
+- Grade
+- Assessment name
+- Assessment date
+- Assessment type
+- Maximum score
+- Learner score
+- Percentage
+- Learning outcomes
+- Teacher
+- Assessment term
+- Academic year
+- Comments
+- Intervention recommendations
+
+Support mathematics, literacy, reading comprehension, English, natural sciences and other configurable subjects.
+
+## 12.2 Assessment Participation Rewards
+
+When a learner completes an eligible assessment, automatically award participation points.
+
+Do not award points merely because a teacher created an assessment.
+
+Prevent repeated participation rewards for the same completed assessment.
+
+## 12.3 Assessment Improvement Rewards
+
+Calculate improvement accurately.
+
+Example:
+
+Previous assessment: 45%
+
+Current assessment: 60%
+
+Improvement: 15 percentage points.
+
+Under the proposed default policy, the learner earns:
+
+15 × 5 = 75 calculated points, capped at 50 points.
+
+**Actual improvement reward: 50 points.**
+
+Distinguish percentage-point improvement from percentage change.
+
+Compare assessments only when they are genuinely comparable.
+
+Support:
+
+- Same subject
+- Comparable difficulty
+- Same assessment series
+- Equivalent scoring scale
+- Teacher-approved comparability
+- Minimum qualifying score
+- Improvement thresholds
+
+Do not award improvement points based on incomparable assessments.
+
+## 12.4 Learner Progress Visualisations
+
+Show:
+
+- Score trends
+- Percentage-point changes
+- Subject performance
+- Improvement trajectories
+- Learning gaps
+- Assessment participation
+- Personal bests
+- Grade-level benchmarks where validated
+- Historical performance
+
+Use graphs that are understandable to teachers and learners.
+
+---
+
+# 13. READING EGGS INTEGRATION
+
+Build a dedicated Reading Eggs management module.
+
+Learners should earn points when they unlock a new verified stage or milestone.
+
+## 13.1 Progress Data
+
+Record:
+
+- Reading Eggs learner ID
+- Current stage or lesson
+- Previous stage
+- Completed lessons
+- Progress date
+- Verified milestone
+- Supporting evidence
+- Teacher verification
+- Reward status
+- Points awarded
+
+## 13.2 Integration Strategy
+
+Investigate whether an official, authorised Reading Eggs API or export integration is available.
+
+Do not invent an API.
+
+Do not bypass access controls or scrape protected services without authorisation.
+
+Implement the best available lawful method:
+
+1. Official API, if available and authorised.
+2. Supported CSV/report import.
+3. Teacher-verified manual entry.
+
+The application must work even if no official API exists.
+
+## 13.3 Milestone Reward Logic
+
+Award points only for newly verified milestones.
+
+Example:
+
+A learner moves from Stage 4 to Stage 5.
+
+The system awards 30 points.
+
+If the teacher uploads the same report again, no additional reward is generated.
+
+If a learner advances several stages, apply the configured policy for each verified eligible milestone without duplicate rewards.
+
+Preserve the original milestone identifiers and evidence.
+
+## 13.4 Reading Intelligence
+
+Provide:
+
+- Stage progression graphs
+- Time between milestones
+- Learners making strong progress
+- Learners with stalled progress
+- Class-level progress
+- Reading intervention recommendations
+- Reading Eggs participation summaries
+
+Do not treat Reading Eggs stage numbers as universally equivalent to school grades without validated mapping.
+
+---
+
+# 14. AUTOMATIC INTEREST ON PENDULA POINTS
+
+Create a virtual savings-interest system.
+
+The purpose is to teach learners:
+
+- Saving
+- Patience
+- Compound growth
+- Financial responsibility
+- Goal setting
+- Delayed gratification
+
+## 14.1 Interest Configuration
+
+Administrators must be able to configure:
+
+- Interest rate
+- Simple or compound interest
+- Interest calculation period
+- Interest posting frequency
+- Minimum qualifying balance
+- Maximum interest award
+- Rounding policy
+- Effective date
+- Interest eligibility rules
+
+Suggested default:
+
+**1% monthly virtual interest**, subject to administrator approval.
+
+Interest must be calculated in whole points using a documented rounding rule.
+
+## 14.2 Interest Example
+
+A learner has 1,000 points.
+
+Monthly interest rate: 1%.
+
+Interest earned: 10 points.
+
+New balance: 1,010 points.
+
+If the next month qualifies for compounding:
+
+1,010 × 1% = 10.1 points.
+
+Apply the configured rounding policy consistently.
+
+## 14.3 Interest Processing
+
+The system must:
+
+- Calculate interest automatically
+- Prevent duplicate interest payments
+- Use the correct balance snapshot
+- Handle month-end processing
+- Support account eligibility rules
+- Record interest as a ledger transaction
+- Allow administrators to suspend future interest
+- Maintain interest history
+
+Use a reliable scheduled process or a verified, idempotent catch-up mechanism that works within the selected hosting plan.
+
+Do not rely on a browser remaining open.
+
+---
+
+# 15. PENDULA BANK STATEMENTS
+
+Generate professional, downloadable Pendula bank statements.
+
+Support PDF and CSV.
+
+Each statement must contain:
+
+**PENDULA EDUCATIONAL REWARDS BANK**
+
+- Pendula branding
+- Learner name
+- Learner account number
+- Statement period
+- Opening balance
+- Transaction dates
+- Transaction descriptions
+- Points earned
+- Approved deductions
+- Interest credited
+- Closing balance
+- Statement generation date
+- Unique statement reference
+
+Example:
+
+| Date | Transaction | Credit | Debit | Balance |
+|---|---|---:|---:|---:|
+| 02 Feb | Attendance | 10 | — | 10 |
+| 03 Feb | Attendance | 10 | — | 20 |
+| 04 Feb | Assessment | 20 | — | 40 |
+| 05 Feb | Reading Eggs Stage | 30 | — | 70 |
+| 28 Feb | Savings Interest | 1 | — | 71 |
+
+Clearly mark all statements:
+
+**Virtual educational points only. Not a real bank account or monetary deposit.**
+
+Statements must reconcile exactly with the ledger.
+
+Provide downloadable monthly, quarterly, annual and custom-period statements.
+
+Only authorised users may generate or view them.
+
+---
+
+# 16. POINT DEDUCTION APPROVAL SYSTEM
+
+This requirement is critical.
+
+**No teacher may deduct points without administrator approval.**
+
+## 16.1 Deduction Workflow
+
+When a teacher requests a deduction:
+
+1. Select the learner.
+2. Select the transaction or deduction category.
+3. Enter the proposed points amount.
+4. Provide a reason.
+5. Attach evidence where necessary.
+6. Submit the request.
+7. Notify administrators.
+8. Place the request in the approval queue.
+9. Require administrator review.
+10. Approve or reject.
+11. Record the decision.
+12. If approved, post the debit transaction atomically.
+13. Notify the relevant teacher.
+
+A pending request must not change the balance.
+
+## 16.2 Security
+
+Teachers cannot approve their own requests.
+
+Rejected requests must not alter balances.
+
+Approved requests must be applied only once.
+
+Require a fresh balance check at posting time.
+
+Prevent unauthorised negative balances.
+
+Do not allow teachers to modify an approved request.
+
+## 16.3 Corrections
+
+If an incorrect credit was issued, do not delete it.
+
+Create an auditable compensating transaction after approval.
+
+Preserve both the original transaction and the correction.
+
+## 16.4 Ethical Reward Governance
+
+Do not encourage punitive deductions for disability-related needs, poverty, illness, protected characteristics or circumstances outside a learner's control.
+
+Create configurable safeguards against unfair deductions.
+
+Allow legitimate disputes and administrator review.
+
+---
+
+# 17. ADMINISTRATOR COMMAND CENTRE
+
+Create a premium, real-time management dashboard.
+
+The administrator must immediately understand the state of the entire programme.
+
+## 17.1 Key Metrics
+
+Display:
+
+- Total registered learners
+- Active learners
+- Learners by grade
+- Learners by school
+- Learners by programme location
+- Today's attendance
+- Weekly attendance rate
+- Monthly attendance rate
+- Learners absent repeatedly
+- Assessments completed
+- Average assessment performance
+- Learners improving
+- Learners declining academically
+- Reading Eggs milestones achieved
+- Total Pendula points issued
+- Total points currently held
+- Interest issued
+- Pending deduction requests
+- Upcoming birthdays
+- Teachers currently active
+- Import and synchronisation errors
+
+## 17.2 Visualisations
+
+Create:
+
+- Attendance heatmaps
+- Grade comparison charts
+- Academic progress line graphs
+- Learner growth curves
+- Reading progress dashboards
+- Points distribution histograms
+- Interest growth charts
+- Assessment performance charts
+- Cohort comparisons
+- Monthly trends
+- School comparisons
+- Teacher activity summaries
+- Intervention outcome charts
+
+Use meaningful statistical calculations rather than decorative graphics.
+
+Every chart must support clear labels, appropriate denominators, filters and explanations.
+
+---
+
+# 18. TEACHER DASHBOARD
+
+Teachers must be able to complete common tasks quickly.
+
+The teacher homepage should show:
+
+**Good morning. Here is your class today.**
+
+Display:
+
+- Assigned classes
+- Expected learners
+- Attendance not yet recorded
+- Today's birthdays
+- Assessments requiring marking
+- Reading Eggs updates
+- Learners needing follow-up
+- Pending reward transactions
+- Pending deduction requests
+- Recent learner achievements
+
+Provide prominent actions:
+
+- Take Attendance
+- Register Learner
+- Award Points
+- Record Assessment
+- Update Reading Eggs
+- View Class
+- Generate Report
+
+Aim to make daily attendance capture possible in a few interactions.
+
+Use bulk actions wherever safe.
+
+---
+
+# 19. AI-POWERED EDUCATIONAL INTELLIGENCE
+
+Pendula must not be a passive database.
+
+It must continuously evaluate authorised educational data and generate useful, explainable insights.
+
+Use deterministic rules and statistical models for critical calculations.
+
+Use generative AI for appropriate language-based assistance.
+
+Never rely on an AI model to calculate authoritative banking balances or approve deductions.
+
+## 19.1 Learner Development Intelligence
+
+Identify:
+
+- Falling attendance
+- Academic improvement
+- Academic regression
+- Reading progress stagnation
+- Strong learning momentum
+- Inconsistent participation
+- Learners requiring academic support
+- Learners who may benefit from mentoring
+- Exceptional improvement
+- Assessment participation gaps
+
+Generate practical suggestions.
+
+Example:
+
+**Learner Support Alert**
+
+A learner attended 6 of the last 10 scheduled sessions, compared with 9 of the previous 10.
+
+Suggested action: Check whether there are transport, family, health or scheduling barriers before recommending an intervention.
+
+Do not automatically conclude that a child is lazy, disengaged or experiencing family problems.
+
+## 19.2 AI Teacher Assistant
+
+Create a conversational assistant named:
+
+**Pendula Intelligence**
+
+Teachers should be able to ask:
+
+- Which learners have missed three sessions?
+- Who improved most in mathematics this term?
+- Which learners have not progressed on Reading Eggs?
+- Show my class attendance trends.
+- Which learners need reading support?
+- Prepare a class progress summary.
+- Explain this assessment graph.
+- Suggest an appropriate literacy activity for Grade 3.
+
+The assistant must respect user permissions.
+
+A teacher must not obtain unauthorised information through AI queries.
+
+## 19.3 AI Administrator Assistant
+
+Administrators should be able to ask:
+
+- What are our biggest educational challenges?
+- Which schools have the lowest attendance?
+- How many learners improved this term?
+- How many points were awarded last month?
+- Are there suspicious transactions?
+- Which classes need additional resources?
+- Compare academic progress across grades.
+- Generate a quarterly management report.
+- What operational changes might improve attendance?
+
+AI answers must be grounded in actual system data.
+
+Include dates, sample sizes, calculation definitions and limitations.
+
+Never fabricate statistics.
+
+## 19.4 Proactive Intelligence
+
+Create an alert engine that identifies important changes automatically.
+
+Examples:
+
+- A learner has missed three consecutive eligible sessions.
+- A class's attendance has fallen significantly.
+- A learner's assessment results have declined.
+- Reading Eggs progress has stalled.
+- A learner has achieved a major milestone.
+- A teacher has unusually high reward activity.
+- A duplicate transaction was attempted.
+- A pending approval is overdue.
+- A learner's birthday is tomorrow.
+
+Provide recommendations, not merely warnings.
+
+## 19.5 AI Cost Control
+
+Prefer:
+
+- Rule-based alerts
+- Local statistical calculations
+- Precomputed summaries
+- Cached AI responses
+- Free-tier AI services where available
+- Open-source alternatives
+- Rate limits
+- Strict usage quotas
+
+Never expose API keys in frontend code.
+
+Never transmit unnecessary child personal information to an external AI provider.
+
+Use aggregated or pseudonymised information wherever possible.
+
+Provide useful non-AI fallback behaviour when AI quotas are exhausted.
+
+---
+
+# 20. EDUCATIONAL PSYCHOLOGY AND LEARNER WELLBEING
+
+Design the platform using principles of positive reinforcement, intrinsic motivation, age-appropriate learning and child dignity.
+
+The platform should encourage:
+
+- Consistency
+- Persistence
+- Academic growth
+- Confidence
+- Personal responsibility
+- Healthy goal setting
+- Reading development
+- Financial literacy
+- Positive relationships with teachers
+
+Avoid systems that publicly shame low-performing learners.
+
+Do not automatically rank vulnerable children by perceived intelligence, psychological risk or worth.
+
+Do not use unvalidated algorithms to diagnose learning disorders, mental health conditions or behavioural problems.
+
+All intervention recommendations must remain advisory and subject to professional human judgement.
+
+Create a confidential learner support module with restricted access and clear retention policies.
+
+---
+
+# 21. GAMIFICATION AND ACHIEVEMENTS
+
+Create a rich but educationally responsible achievement system.
+
+## 21.1 Badges
+
+Examples:
+
+- Attendance Champion
+- Reading Explorer
+- Reading Star
+- Mathematics Improver
+- Consistency Champion
+- Academic Comeback
+- Savings Star
+- Assessment Achiever
+- Growth Champion
+- Personal Best
+
+Award badges through transparent rules.
+
+## 21.2 Learning Journeys
+
+Create visual progress journeys.
+
+Examples:
+
+**Reading Journey**
+
+Seed → Sprout → Explorer → Reader → Reading Champion
+
+**Savings Journey**
+
+Starter → Saver → Builder → Planner → Savings Champion
+
+These are motivational progress indicators, not measures of personal worth.
+
+## 21.3 Savings Goals
+
+Allow learners to create virtual savings goals.
+
+Example:
+
+**My goal: 2,000 Pendula Points**
+
+Current balance: 1,250 points.
+
+Progress: 62.5%.
+
+Provide a visual progress bar.
+
+Goals must not lock or deduct points unless an explicitly approved policy requires it.
+
+## 21.4 Leaderboards
+
+Support optional, privacy-preserving leaderboards based on personal improvement, attendance consistency or achievements.
+
+Disable public identification by default.
+
+Allow administrators to disable leaderboards entirely.
+
+Avoid comparing children unfairly across different grades or circumstances.
+
+---
+
+# 22. NOTIFICATIONS AND COMMUNICATIONS
+
+Implement a professional notification centre.
+
+## 22.1 Administrator Notifications
+
+Notify administrators about:
+
+- Pending deduction approvals
+- Possible duplicate learners
+- Suspicious transactions
+- Unusual points activity
+- Teacher account changes
+- Failed data imports
+- Security alerts
+- Backup failures
+- System quota warnings
+
+## 22.2 Teacher Notifications
+
+Notify teachers about:
+
+- Learner birthdays
+- Attendance concerns
+- New academic milestones
+- Assessment deadlines
+- Reading Eggs achievements
+- Approved or rejected deductions
+- Learners needing follow-up
+
+## 22.3 Parent Communication
+
+Where consent and contact details permit, support:
+
+- Attendance updates
+- Academic progress summaries
+- Achievement messages
+- Birthday messages
+- Meeting reminders
+- Educational support messages
+
+Prefer in-app notifications and approved free channels.
+
+Email integration may be added where free quotas and privacy requirements permit.
+
+Do not promise free SMS or WhatsApp delivery without a verified provider arrangement.
+
+Never automatically send sensitive or potentially distressing messages without appropriate safeguards.
+
+---
+
+# 23. STATISTICS AND DATA SCIENCE
+
+Implement a genuine analytics engine.
+
+## 23.1 Descriptive Statistics
+
+Calculate:
+
+- Mean
+- Median
+- Minimum and maximum
+- Standard deviation
+- Attendance percentage
+- Assessment improvement
+- Reading progress rate
+- Points earning frequency
+- Distribution by grade
+- Distribution by school
+- Cohort retention
+
+## 23.2 Trend Analysis
+
+Analyse:
+
+- Week-on-week changes
+- Month-on-month changes
+- Term-on-term changes
+- Year-on-year changes
+- Individual progress
+- Class progress
+- Programme-wide trends
+
+## 23.3 Predictive and Early-Warning Features
+
+Use cautious, explainable indicators.
+
+For example:
+
+A learner's attendance has fallen below 70% over the last four weeks.
+
+Show the exact attendance calculation and relevant dates.
+
+Do not present unvalidated predictive models as scientifically established risk scores.
+
+Where sample sizes are small, indicate uncertainty.
+
+## 23.4 Data Quality
+
+Provide a data quality dashboard showing:
+
+- Missing learner fields
+- Possible duplicates
+- Inconsistent grade information
+- Invalid assessment results
+- Attendance anomalies
+- Unverified Reading Eggs milestones
+- Unreconciled ledger transactions
+- Stale learner records
+
+---
+
+# 24. SEARCH AND FILTERING
+
+Implement fast, intelligent search.
+
+Search by:
+
+- Learner name
+- Learner ID
+- School
+- Grade
+- Class
+- Teacher
+- Programme location
+- Account number
+
+Allow filtering by:
+
+- Age range
+- Registration status
+- Attendance range
+- Academic performance
+- Assessment improvement
+- Reading Eggs stage
+- Points balance
+- Achievement status
+- Academic year
+
+Support combined filters and saved views.
+
+Respect permissions throughout.
+
+---
+
+# 25. REPORT GENERATION
+
+Create a comprehensive reporting centre.
+
+Reports must be downloadable as PDF, CSV and Excel where appropriate.
+
+Include:
+
+1. Individual learner report
+2. Class performance report
+3. Attendance report
+4. Assessment progress report
+5. Reading Eggs report
+6. Pendula bank statement
+7. Points distribution report
+8. Interest report
+9. Teacher activity report
+10. Programme performance report
+11. School comparison report
+12. Quarterly management report
+13. Annual impact report
+14. Learner intervention report
+15. Data quality report
+16. Transaction audit report
+
+Reports should contain professional charts, clear headings, reporting periods and calculation notes.
+
+Use Pendula branding consistently.
+
+Allow administrators to generate consolidated reports.
+
+Allow teachers to generate only reports within their authorised scope.
+
+---
+
+# 26. SOUTH AFRICAN PRIVACY AND CHILD PROTECTION
+
+The application will process personal information about children.
+
+Implement privacy and safeguarding protections consistent with South Africa's Protection of Personal Information Act (POPIA) and other applicable laws.
+
+Include:
+
+- Lawful processing requirements
+- Special protection for children's information
+- Appropriate parent or guardian authorisation where required
+- Purpose limitation
+- Data minimisation
+- Role-based access
+- Encryption in transit
+- Encryption at rest through the hosting provider
+- Access logging
+- Secure data retention
+- Privacy notices
+- Data correction procedures
+- Controlled export procedures
+- Incident response procedures
+- Secure deletion and archival policies
+- Third-party processor assessment
+- Cross-border data transfer safeguards
+- Appropriate information security measures
+
+Do not assume that ordinary parental consent automatically resolves every legal requirement for processing children's information.
+
+Flag matters requiring review by a qualified South African privacy professional.
+
+Do not include children's personal information in public dashboards, public logs or AI prompts without appropriate safeguards.
+
+---
+
+# 27. CYBERSECURITY REQUIREMENTS
+
+Security is non-negotiable.
+
+Implement:
+
+- Secure authentication
+- Strong password requirements
+- Multi-factor authentication for administrators
+- Server-side permission enforcement
+- Firebase security rules
+- Input validation
+- Output encoding
+- Protection against injection attacks
+- Cross-site scripting protection
+- Cross-site request forgery protection where applicable
+- Secure session management
+- Rate limiting
+- Login abuse protection
+- API abuse protection
+- Secret management
+- Secure file upload validation
+- Dependency vulnerability scanning
+- Audit logging
+- Automated security tests
+- Backup encryption
+- Recovery procedures
+
+Never trust a role value supplied by the browser.
+
+Never trust a client-submitted balance.
+
+Never expose administrator operations through insecure client-side logic.
+
+Use server-side transactions for every points operation.
+
+Test permission bypass attempts.
+
+---
+
+# 28. AUDIT TRAIL AND ACCOUNTABILITY
+
+Maintain an append-only audit trail for sensitive operations.
+
+Record:
+
+- Actor
+- Role
+- Action
+- Timestamp
+- Target record
+- Before and after values where appropriate
+- Reason
+- Approval status
+- Relevant transaction ID
+- Device or session metadata where appropriate
+
+Audit events should include:
+
+- Learner registration
+- Learner editing
+- Learner deactivation
+- Teacher creation
+- Teacher deactivation
+- Points awards
+- Deduction requests
+- Deduction approvals
+- Transaction reversals
+- Interest policy changes
+- Reward policy changes
+- Data exports
+- Administrative configuration changes
+
+Teachers must not be able to alter or delete audit logs.
+
+Protect logs against tampering and apply lawful retention limits.
+
+---
+
+# 29. OFFLINE FUNCTIONALITY
+
+The platform must remain useful during intermittent internet connectivity.
+
+Implement offline-first functionality for appropriate workflows.
+
+Teachers should be able to:
+
+- View previously synchronised class registers
+- Capture attendance offline
+- Prepare assessment results offline
+- Queue permitted updates
+- Synchronise when connectivity returns
+
+Display a clear offline indicator.
+
+Prevent duplicate synchronisation.
+
+Resolve conflicts safely.
+
+**Do not allow offline clients to authoritatively alter bank balances.**
+
+Offline reward actions must remain pending until validated and posted by the server.
+
+Show users whether a transaction is pending, confirmed or rejected.
+
+---
+
+# 30. REAL-TIME SYNCHRONISATION
+
+When one teacher records attendance or a reward, authorised users should see the update promptly.
+
+Use real-time database subscriptions where appropriate.
+
+Optimise subscriptions to control free-tier usage.
+
+Avoid listening to entire collections unnecessarily.
+
+Use:
+
+- Paginated queries
+- Scoped listeners
+- Summary documents
+- Incremental updates
+- Indexed lookups
+- Efficient aggregation strategies
+
+Display synchronisation status.
+
+---
+
+# 31. ADMINISTRATOR SETTINGS
+
+Create a comprehensive settings console.
+
+Administrators must be able to configure:
+
+- Organisation name
+- Logo
+- Contact details
+- Programme locations
+- Schools
+- Grades
+- Classes
+- Teachers
+- Academic calendar
+- Attendance rules
+- Assessment rules
+- Reward amounts
+- Reading Eggs milestones
+- Interest rates
+- Notification preferences
+- Report templates
+- Data retention
+- AI features
+- Security policies
+- User access
+- Backup settings
+
+Changes must be audited.
+
+Use safe defaults.
+
+---
+
+# 32. DATABASE DESIGN
+
+Design a scalable Firestore data model or a justified alternative.
+
+Suggested logical entities:
+
+- organisations
+- users
+- roles
+- devices
+- learners
+- guardians
+- schools
+- classes
+- enrolments
+- academicYears
+- academicTerms
+- attendanceRecords
+- assessments
+- assessmentResults
+- readingEggsProgress
+- milestones
+- rewardPolicies
+- learnerAccounts
+- ledgerAccounts
+- ledgerTransactions
+- transactionEntries
+- interestPolicies
+- interestRuns
+- deductionRequests
+- approvals
+- achievements
+- savingsGoals
+- notifications
+- interventions
+- auditLogs
+- importJobs
+- reportJobs
+- systemSettings
+- dataQualityAlerts
+
+These are logical entities, not a requirement that every entity be a top-level collection.
+
+Choose an efficient schema based on query patterns, permissions, transactional requirements and operating costs.
+
+Document indexes, data relationships, validation rules and retention policies.
+
+---
+
+# 33. AUTOMATION ENGINE
+
+Implement automated workflows for:
+
+- Daily attendance reward processing
+- Duplicate prevention
+- Assessment participation rewards
+- Assessment improvement rewards
+- Reading Eggs milestone rewards
+- Monthly interest
+- Birthday reminders
+- Attendance alerts
+- Academic progress alerts
+- Approval reminders
+- Data quality checks
+- Report generation
+- Backup verification
+- Security monitoring
+
+Every automated job must be idempotent.
+
+Implement retry handling and failure logging.
+
+Do not silently lose events.
+
+Use scheduled infrastructure only where the selected Google plan supports it.
+
+Where scheduling would incur charges, use a reliable alternative and disclose the trade-off.
+
+---
+
+# 34. QUALITY ASSURANCE AND TESTING
+
+Create comprehensive automated tests.
+
+## 34.1 Functional Tests
+
+Verify:
+
+- Learner registration
+- Bulk uploads
+- Duplicate detection
+- Teacher login
+- Administrator login
+- Role restrictions
+- Attendance recording
+- Assessment scoring
+- Improvement rewards
+- Reading Eggs rewards
+- Interest calculations
+- Bank statements
+- Deduction approvals
+- Reporting
+- Notifications
+- Offline synchronisation
+
+## 34.2 Banking Integrity Tests
+
+Specifically test:
+
+- Two teachers awarding points simultaneously
+- Repeated attendance submissions
+- Duplicate Reading Eggs imports
+- Repeated assessment submissions
+- Interest processing retries
+- Failed transactions
+- Transaction reversal requests
+- Administrator approval races
+- Balance reconciliation
+- Ledger invariants
+- Historical statement accuracy
+
+No duplicated rewards or unauthorised deductions may occur.
+
+## 34.3 Security Tests
+
+Verify that:
+
+- Teachers cannot create administrators.
+- Teachers cannot delete learners.
+- Teachers cannot delete teachers.
+- Teachers cannot approve deductions.
+- Teachers cannot change interest rates.
+- Learners cannot access other learners' records.
+- Parents cannot access unrelated learners.
+- Unauthenticated users cannot read protected data.
+- API calls cannot bypass security rules.
+- Client-side manipulation cannot change balances.
+
+## 34.4 Performance Tests
+
+Test at least:
+
+- 500 learner profiles
+- 30 concurrent teacher sessions
+- Bulk attendance capture
+- Bulk import
+- Concurrent rewards
+- Large report generation
+- Real-time dashboard updates
+
+Record actual results.
+
+Do not invent benchmark numbers.
+
+---
+
+# 35. ACCESSIBILITY AND USABILITY
+
+Target WCAG 2.2 AA where practical.
+
+Implement:
+
+- Keyboard navigation
+- Screen reader support
+- Accessible form labels
+- Clear error messages
+- Sufficient contrast
+- Responsive text
+- Large touch targets
+- Reduced-motion preferences
+- Accessible charts and tables
+- Plain-language explanations
+
+Use South African English as the default interface language.
+
+Design the system so that additional local languages can be introduced.
+
+---
+
+# 36. INSTALLABLE APPLICATION
+
+Build Pendula as a PWA.
+
+Include:
+
+- App manifest
+- Pendula icon
+- Install prompt
+- Responsive layouts
+- Secure HTTPS
+- Offline support
+- Appropriate service worker caching
+- Update notifications
+- Mobile navigation
+- Tablet-friendly attendance capture
+
+Ensure the app works in current versions of Chrome, Safari, Edge and Firefox.
+
+Test installation on Android and iOS where the environment permits.
+
+Do not claim native app-store publication unless actual store submission and approval have occurred.
+
+---
+
+# 37. PRODUCTION DEPLOYMENT
+
+Deploy the completed application using suitable Google infrastructure.
+
+Preferred approach:
+
+Firebase Hosting + Firebase Authentication + Firestore + appropriate backend services.
+
+You must:
+
+1. Inspect the available development environment.
+2. Verify access to the source repository.
+3. Verify Google/Firebase authentication.
+4. Establish or connect to the production project.
+5. Configure the database.
+6. Configure authentication.
+7. Configure security rules.
+8. Configure indexes.
+9. Configure backend functions or services.
+10. Configure environment variables and secrets.
+11. Build the production frontend.
+12. Run automated tests.
+13. Deploy the backend.
+14. Deploy database rules and indexes.
+15. Deploy the frontend.
+16. Configure the production URL.
+17. Verify HTTPS.
+18. Test production authentication.
+19. Test the points ledger.
+20. Test attendance and rewards.
+21. Test administrator approvals.
+22. Test report generation.
+23. Verify security rules.
+24. Confirm the application is operational.
+
+Use the default Firebase Hosting domain initially.
+
+A custom domain can be configured later.
+
+Do not use hardcoded credentials or publicly accessible test administrator accounts.
+
+---
+
+# 38. ADMINISTRATOR ONBOARDING
+
+Create a secure first-run setup experience.
+
+The first authorised administrator must be able to:
+
+- Set their password
+- Enable MFA
+- Configure organisation information
+- Upload the organisation logo
+- Configure academic terms
+- Configure schools
+- Configure classes
+- Approve initial reward rules
+- Approve the interest policy
+- Invite teachers
+- Import learners
+- Review privacy settings
+- Activate the programme
+
+Provide a guided setup checklist.
+
+Do not activate financial-style rewards until the relevant policies have been approved.
+
+---
+
+# 39. DEMONSTRATION DATA
+
+Create a separate demo or staging environment containing fictional learners.
+
+Use synthetic data to demonstrate:
+
+- Attendance
+- Assessments
+- Reading Eggs achievements
+- Points awards
+- Interest
+- Statements
+- Deduction approvals
+- Analytics
+
+Never mix demonstration records with actual production learner data.
+
+Production must start with a clean, properly configured dataset unless I authorise a real import.
+
+---
+
+# 40. OPERATIONAL MONITORING
+
+Create a system health dashboard.
+
+Display:
+
+- Application availability
+- Database connectivity
+- Authentication status
+- Background job status
+- Failed operations
+- Synchronisation errors
+- Storage usage
+- Database usage
+- AI quota usage
+- Hosting quota usage
+- Recent deployment status
+- Backup status
+
+Notify administrators of serious operational failures.
+
+Provide actionable troubleshooting guidance.
+
+---
+
+# 41. COST MANAGEMENT
+
+The project must prioritise Google's free infrastructure.
+
+Before deployment, identify:
+
+- Which services are genuinely free
+- Which require billing activation
+- Which have usage limits
+- Which features may create costs
+- Estimated database reads and writes
+- Estimated storage usage
+- Estimated AI usage
+- Estimated notification usage
+- Expected operating costs at 500 learners and 30 active devices
+
+Implement:
+
+- Quota monitoring
+- Efficient database queries
+- Caching
+- AI request limits
+- Storage controls
+- Cost-conscious scheduled processing
+- Warnings before optional paid features are enabled
+
+Do not activate paid resources without explicit approval.
+
+If a requirement cannot be met reliably within the free tier, explain the constraint and implement the best safe, functional alternative.
+
+---
+
+# 42. DOCUMENTATION
+
+Deliver:
+
+**A. Administrator Manual**
+
+How to configure and operate the platform.
+
+**B. Teacher Manual**
+
+How to register learners, take attendance, record assessments and manage points.
+
+**C. Banking System Manual**
+
+How rewards, interest, statements, approvals and reversals work.
+
+**D. Technical Documentation**
+
+Architecture, database design, security rules, deployment and maintenance.
+
+**E. Privacy and Safeguarding Documentation**
+
+Data handling, access permissions, retention and incident response.
+
+**F. Backup and Recovery Manual**
+
+How to restore the system after failure.
+
+**G. Deployment Report**
+
+Actual live URL, deployment environment, test results, outstanding limitations and operating costs.
+
+---
+
+# 43. ACCEPTANCE CRITERIA
+
+The project may be considered complete only when all the following are true.
+
+### Application
+
+- [ ] A real production URL is available.
+- [ ] The application loads successfully over HTTPS.
+- [ ] The PWA is installable.
+- [ ] The interface works on desktop and mobile.
+- [ ] Authentication works.
+- [ ] Up to three administrators are supported.
+- [ ] Teacher permissions work correctly.
+
+### Learner Management
+
+- [ ] 500 learners can be imported.
+- [ ] Grades 1–12 are supported.
+- [ ] Duplicate records are prevented or flagged.
+- [ ] Teachers can register and edit learners.
+- [ ] Only administrators can deactivate or remove learners.
+- [ ] Learner history is preserved.
+
+### Pendula Banking
+
+- [ ] Every learner has an account.
+- [ ] Attendance earns configured points.
+- [ ] Assessments earn configured points.
+- [ ] Assessment improvement earns configured points.
+- [ ] Reading Eggs milestones earn configured points.
+- [ ] Duplicate rewards are prevented.
+- [ ] Interest works.
+- [ ] Statements are accurate.
+- [ ] Teachers cannot directly deduct points.
+- [ ] Administrator approvals work.
+- [ ] The ledger reconciles.
+
+### Intelligence
+
+- [ ] Real-time dashboards work.
+- [ ] Attendance analytics work.
+- [ ] Assessment analytics work.
+- [ ] Reading Eggs analytics work.
+- [ ] Proactive alerts work.
+- [ ] AI assistance works within configured limits.
+- [ ] Reports can be downloaded.
+
+### Security
+
+- [ ] Firestore security rules are deployed.
+- [ ] Role restrictions are tested.
+- [ ] Sensitive operations are audited.
+- [ ] Child information is protected.
+- [ ] Backups and recovery procedures are documented.
+
+### Production
+
+- [ ] Automated tests pass.
+- [ ] Production smoke tests pass.
+- [ ] No critical defects remain.
+- [ ] The live URL is verified.
+- [ ] Administrator onboarding works.
+- [ ] Documentation is delivered.
+- [ ] Any remaining limitations are explicitly disclosed.
+
+---
+
+# 44. DEVELOPMENT EXECUTION INSTRUCTIONS
+
+You must implement the entire project, not merely explain how it could be implemented.
+
+Follow a disciplined engineering process.
+
+**Step 1 — Inspect and Plan**
+
+Inspect the repository and development environment.
+
+Determine what is already available.
+
+Identify dependencies and required external authorisations.
+
+Produce a concise architecture and implementation plan.
+
+**Step 2 — Build**
+
+Implement the entire frontend, backend, database, authentication, permissions, banking ledger, educational modules, analytics, notifications and AI functionality.
+
+Do not stop at scaffolding.
+
+**Step 3 — Integrate**
+
+Connect every module to the real database and backend.
+
+Replace mock functionality with production functionality.
+
+**Step 4 — Test**
+
+Execute unit, integration, security, end-to-end and concurrency tests.
+
+Fix failures.
+
+**Step 5 — Deploy**
+
+Deploy the system to Google infrastructure.
+
+If credentials or permissions are missing, ask for the exact required authorisation.
+
+Never request that I paste private keys or passwords into chat.
+
+**Step 6 — Verify**
+
+Run real production smoke tests using authorised test accounts and isolated test data.
+
+Verify the live URL and critical workflows.
+
+**Step 7 — Publish**
+
+Deliver the operational application URL and installation instructions.
+
+**Step 8 — Handover**
+
+Provide administrator onboarding instructions, documentation, operational limitations and a deployment report.
+
+These are implementation steps, not separate product phases.
+
+Do not deliver only Step 1 and ask whether to continue.
+
+Continue autonomously wherever the environment and authorisations permit.
+
+Do not ask for approval on routine engineering decisions.
+
+Ask only when a decision requires my authorisation, introduces a material cost, changes a fundamental business rule or involves sensitive external access.
+
+---
+
+# 45. ADDITIONAL INNOVATION REQUIREMENT
+
+Beyond the specified features, identify and implement valuable improvements that make Pendula more effective.
+
+Prioritise innovations that:
+
+- Reduce teachers' administrative workload
+- Improve learner attendance
+- Strengthen reading development
+- Encourage academic improvement
+- Improve financial literacy
+- Detect data errors
+- Strengthen child protection
+- Improve management decision-making
+- Reduce operational costs
+- Increase accessibility
+- Improve system reliability
+
+Do not add complexity merely for appearance.
+
+Every feature must serve a clear educational, operational or safeguarding purpose.
+
+---
+
+# 46. FINAL DIRECTIVE
+
+**BUILD PENDULA AS A COMPLETE, LIVE, PROFESSIONAL EDUCATIONAL MANAGEMENT AND REWARDS BANKING PLATFORM.**
+
+Do not produce only:
+
+- A design proposal
+- A prototype
+- A wireframe
+- A static website
+- A frontend without a backend
+- A database without an interface
+- A nonfunctional dashboard
+- A mock banking system
+- A partially completed application
+- A deployment guide without deployment
+
+The expected deliverable is a functioning, published application.
+
+Work with the precision of banking software engineers, the creativity of exceptional product designers, the analytical discipline of statisticians and data scientists, and the developmental sensitivity of educational psychologists.
+
+The result should be beautiful, secure, intelligent, responsive, accessible, intuitive and dependable.
+
+It should help teachers spend less time on administration and more time supporting children.
+
+It should help administrators understand what is happening across the programme.
+
+It should help learners develop confidence, consistency, academic competence and financial responsibility.
+
+It should transform attendance, assessments, reading progress and positive learning achievements into a meaningful educational rewards experience.
+
+**Pendula must be a platform that does not merely record children's development. It actively helps educators nurture it.**
+
+## BEGIN EXECUTION NOW.
+
+Inspect the environment, establish the project architecture, build the complete system, test it, deploy it, verify it and provide the live production URL.
+
+Continue until all requirements are implemented or a genuine external dependency prevents further progress.
+
+If blocked, identify the precise blocker, preserve all completed work and request only the necessary action.
+
+Never represent incomplete or unverified work as complete.

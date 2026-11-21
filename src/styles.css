@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-on-brand: var(--on-brand);
+  --color-brand-2: var(--brand-2);
+  --color-brand-muted: var(--brand-muted);
+  --color-action: var(--action);
+  --color-on-action: var(--on-action);
+  --color-emerald: var(--emerald);
+  --color-gold: var(--gold);
+  --color-on-gold: var(--on-gold);
+  --color-danger: var(--danger);
+  --color-gold-soft: var(--gold-soft);
+  --color-emerald-soft: var(--emerald-soft);
+  --color-blue-soft: var(--blue-soft);
+  --color-danger-soft: var(--danger-soft);
+  --font-sans: "Outfit", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+  --radius-xl: 1.25rem;
+}
+
+:root {
+  --paper: #f3efe6;
+  --card: #fffdf8;
+  --ink: #152033;
+  --muted: #5c6b7c;
+  --line: #e4d9c8;
+  --brand: #0e2744;
+  --on-brand: #f6f1e7;
+  --brand-2: #16365c;
+  --brand-muted: #c9d4e2;
+  --action: #1d6fdb;
+  --on-action: #ffffff;
+  --emerald: #0c7d55;
+  --gold: #a9780a;
+  --on-gold: #1c1404;
+  --danger: #9f1d32;
+  --gold-soft: #f8efd4;
+  --emerald-soft: #e4f5ee;
+  --blue-soft: #e7f0fb;
+  --danger-soft: #fdecef;
+  color-scheme: light;
+}
+
+.dark {
+  --paper: #0b1422;
+  --card: #121e30;
+  --ink: #f4efe6;
+  --muted: #a8b7c9;
+  --line: #2a3b52;
+  --emerald: #3dcea0;
+  --gold: #e4c36a;
+  --danger: #ffb4bc;
+  --gold-soft: #2c2618;
+  --emerald-soft: #10261c;
+  --blue-soft: #16283f;
+  --danger-soft: #3a1c22;
+  color-scheme: dark;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3,
+  .display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--action);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+}
+
+@layer components {
+  .panel {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 1.25rem;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 2.75rem;
+    border-radius: 0.85rem;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink);
+    padding: 0.65rem 0.8rem;
+    font: inherit;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    min-height: 2.75rem;
+    padding: 0.55rem 1.05rem;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    background: var(--action);
+    color: var(--on-action);
+    font: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .btn-gold {
+    background: var(--gold);
+    color: var(--on-gold);
+  }
+
+  .btn-ghost {
+    background: transparent;
+    color: var(--ink);
+    border-color: var(--line);
+  }
+
+  .btn-brand {
+    background: transparent;
+    color: var(--on-brand);
+    border-color: color-mix(in srgb, var(--on-brand) 28%, transparent);
+  }
+
+  .btn-danger {
+    background: transparent;
+    color: var(--danger);
+    border-color: color-mix(in srgb, var(--danger) 45%, var(--line));
+  }
+
+  .btn-quiet {
+    background: var(--blue-soft);
+    color: var(--ink);
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    min-height: 1.75rem;
+    padding: 0.1rem 0.6rem;
+    border-radius: 999px;
+    background: var(--blue-soft);
+    color: var(--ink);
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .nav-btn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 0.7rem;
+    min-height: 2.75rem;
+    border-radius: 0.9rem;
+    padding: 0.45rem 0.7rem;
+    color: var(--brand-muted);
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .nav-btn[data-active="true"] {
+    background: var(--brand-2);
+    color: var(--on-brand);
+  }
+}
